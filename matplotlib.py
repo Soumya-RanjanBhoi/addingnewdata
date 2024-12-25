@@ -10,7 +10,6 @@ import numpy as np
 # w=0.2
 # p=np.arange(len(x))
 # p1=[j+w for j in p]
-
 # plt.bar(p,y,color=["r","y","g","b"],width=w,align="center",edgecolor="m",alpha=1,linewidth=1,label="Graph")
 # plt.bar(p1,y1,width=w,color="m",align="center",edgecolor="m",alpha=1,linewidth=1.5,linestyle=":")
 # plt.xlabel("Languages",fontsize=20)
