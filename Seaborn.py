@@ -117,6 +117,10 @@ data=sns.load_dataset("tips")
 #univarient analysis on continous data
 # titanic = pd.read_csv(r"C:\Users\soumy\Downloads\train.csv")
 # titanic["Age"].fillna(titanic["Age"].mean,inplace=True)
+#displot(titanic["Age],kind="Kde")
+#histplot(,kde=True,stat="density or count"))
+#kdeplot rugplot
+
 # sns.distplot(titanic["Age"],kde=False,bins=100) #kde =False only histogram hist=False --> only histogram
 # # rug=True --> add rug plot kde,hist=false
 # #sns.distplot(titanic[titanic["survived"]==1]["Age"])
